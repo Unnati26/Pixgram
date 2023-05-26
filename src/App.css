@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+
+.app{
+
+ 
+  height: 100vh;
+}
+.app_posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_postsRight{
+  margin-left:20px;
+}
+
+.app_header{
+  position: sticky;
+  top:0;
+  z-index:1;
+  background-color: #e6f7ff;
+  padding: 10px;
+  border-bottom: 1px solid #004466;
+  object-fit: contain;
+  display: flex;
+  justify-content:space-between;
+}
+.app_headerImage{
+  object-fit: contain;
+}
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+.sorry{
+  font-family:cursive;
+  text-align: center;
+  padding-bottom: 20px;
+}

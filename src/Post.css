@@ -1,0 +1,90 @@
+.post{
+    /* background-color: #e6f7ff; */
+    max-width: 500px;
+    border: 1px solid #004466;
+    margin-bottom: 45px;
+    border-radius: 30px;
+    font-family: cursive;
+    
+     
+}
+.post_image{
+    width: 95%;
+    object-fit: contain;
+    
+    border-radius: 30px;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+.post_text{
+    font-weight: normal ;
+    padding: 20px;
+    font-family: cursive;
+   
+}
+
+.post_header{
+    display: flex;
+    align-items: center;
+    padding:20px ;
+}
+.post_avatar{
+    margin-right: 10px;
+}
+.post_commentBox{
+   display: flex;
+   margin-top: 10px;
+   padding-bottom: 25px;
+   padding-right: 5px;
+   padding-left: 5px;
+  
+  
+}
+
+.post_comments{
+    padding: 5px;
+    font-family: cursive;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+   
+    
+}
+
+.post_input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #80d4ff;
+    border-radius: 5px;
+    
+    
+    padding-bottom: 15px;
+}
+
+.post_button{
+    flex: 0;
+    border: none;
+    color:#e6f7ff;
+    background-color:#004466;
+    border: 1px solid ;
+    border-radius: 5px;
+
+ 
+}
+/* .post {
+    font-family: courier;
+    font-size: large;
+    text-align: center;
+    padding: 20px 40px;
+  } */
+  
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .post {
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
